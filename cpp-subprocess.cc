@@ -1,7 +1,11 @@
 #include <stdio.h>
+#include <unistd.h>
 
 int main() {
-    printf("at sub process\n");
+    printf(">> start at sub process\n");
 
+    sleep(3);
     // TODO 子プロセスを起動する
+
+    printf("<< end at sub process\n");
 }
